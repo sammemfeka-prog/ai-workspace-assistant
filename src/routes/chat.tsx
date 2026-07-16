@@ -26,7 +26,7 @@ import { trackActivity } from "@/lib/analytics";
 export const Route = createFileRoute("/chat")({
   head: () => ({
     meta: [
-      { title: "AI Chat Assistant — Workplace AI" },
+      { title: "AI Chat Assistant — AI PA (Productivity Assistant)" },
       {
         name: "description",
         content:

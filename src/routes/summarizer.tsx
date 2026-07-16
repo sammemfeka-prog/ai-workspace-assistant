@@ -17,7 +17,7 @@ import { summarizeMeetingNotes } from "@/lib/summarize.functions";
 export const Route = createFileRoute("/summarizer")({
   head: () => ({
     meta: [
-      { title: "Meeting Notes Summarizer — Workplace AI" },
+      { title: "Meeting Notes Summarizer — AI PA (Productivity Assistant)" },
       {
         name: "description",
         content:

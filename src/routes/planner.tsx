@@ -26,7 +26,7 @@ import { generateSchedule } from "@/lib/planner.functions";
 export const Route = createFileRoute("/planner")({
   head: () => ({
     meta: [
-      { title: "AI Task Planner — Workplace AI" },
+      { title: "AI Task Planner — AI PA (Productivity Assistant)" },
       {
         name: "description",
         content:
