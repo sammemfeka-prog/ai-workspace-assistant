@@ -70,11 +70,11 @@ function Dashboard() {
           <Sparkles className="h-4 w-4" /> Welcome back
         </div>
         <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-          Your AI workplace, ready to go.
+          Welcome to AI PA (Productivity Assistant)
         </h1>
         <p className="mt-2 max-w-2xl text-muted-foreground">
-          Summarize meetings, plan your week, and draft polished workplace writing — all in one
-          calm, focused workspace.
+          Your AI-powered workplace productivity companion — summarize meetings, plan your week,
+          and draft polished writing in one calm, focused workspace.
         </p>
       </section>
 

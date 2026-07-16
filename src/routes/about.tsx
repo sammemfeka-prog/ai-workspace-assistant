@@ -44,7 +44,7 @@ function AboutPage() {
         </div>
         <h1 className="mt-2 text-3xl font-bold tracking-tight">AI PA (Productivity Assistant)</h1>
         <p className="mt-2 max-w-2xl text-muted-foreground">
-          A focused AI workplace productivity assistant. No sign-up, no clutter — just three tools
+          A focused AI productivity assistant. No sign-up, no clutter — just three tools
           that give you time back.
         </p>
       </header>
