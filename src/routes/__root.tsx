@@ -80,23 +80,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI PA (Productivity Assistant)" },
+      { title: "Dashboard — AI PA (Productivity Assistant)" },
       {
         name: "description",
         content:
-          "AI PA (Productivity Assistant) is an AI-powered workplace productivity platform that helps professionals summarize meetings, plan tasks, and automate everyday work using artificial intelligence.",
+          "Your workplace productivity dashboard with AI tools and weekly insights.",
       },
       { name: "author", content: "AI PA (Productivity Assistant)" },
-      { property: "og:title", content: "AI PA (Productivity Assistant)" },
+      { property: "og:title", content: "Dashboard — AI PA (Productivity Assistant)" },
       {
         property: "og:description",
         content:
-          "AI PA (Productivity Assistant) is an AI-powered workplace productivity platform that helps professionals summarize meetings, plan tasks, and automate everyday work using artificial intelligence.",
+          "Your workplace productivity dashboard with AI tools and weekly insights.",
       },
-      { name: "twitter:title", content: "AI PA (Productivity Assistant)" },
+      { name: "twitter:title", content: "Dashboard — AI PA (Productivity Assistant)" },
 
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:description", content: "Your workplace productivity dashboard with AI tools and weekly insights." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b0ce3060-d77f-4e21-8e54-7496b1e419ff/id-preview-31eceacc--3934fe39-423c-47ea-925c-de0c9656d73b.lovable.app-1784208353345.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b0ce3060-d77f-4e21-8e54-7496b1e419ff/id-preview-31eceacc--3934fe39-423c-47ea-925c-de0c9656d73b.lovable.app-1784208353345.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
