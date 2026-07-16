@@ -46,7 +46,7 @@ export function AppSidebar() {
             <Sparkles className="h-5 w-5" />
           </div>
           <div className="min-w-0 flex-1 group-data-[collapsible=icon]:hidden">
-            <div className="truncate text-sm font-semibold leading-tight">Workplace AI</div>
+            <div className="truncate text-sm font-semibold leading-tight">AI PA</div>
             <div className="truncate text-xs text-muted-foreground">Productivity Assistant</div>
           </div>
         </Link>

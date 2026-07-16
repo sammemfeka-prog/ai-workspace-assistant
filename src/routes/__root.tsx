@@ -80,19 +80,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Workplace AI — Meeting summaries, planning & assistant" },
+      { title: "AI PA (Productivity Assistant)" },
       {
         name: "description",
         content:
-          "An AI workplace productivity assistant that summarizes meetings, plans your day, and drafts emails, reports, and agendas — no sign-up required.",
+          "AI PA (Productivity Assistant) is an AI-powered workplace productivity platform that helps professionals summarize meetings, plan tasks, and automate everyday work using artificial intelligence.",
       },
-      { name: "author", content: "Workplace AI" },
-      { property: "og:title", content: "Workplace AI Productivity Assistant" },
+      { name: "author", content: "AI PA (Productivity Assistant)" },
+      { property: "og:title", content: "AI PA (Productivity Assistant)" },
       {
         property: "og:description",
         content:
-          "Summarize meetings, generate optimized schedules, and chat with an AI workplace assistant.",
+          "AI PA (Productivity Assistant) is an AI-powered workplace productivity platform that helps professionals summarize meetings, plan tasks, and automate everyday work using artificial intelligence.",
       },
+      { name: "twitter:title", content: "AI PA (Productivity Assistant)" },
+
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -139,7 +141,7 @@ function RootComponent() {
             <header className="sticky top-0 z-30 flex h-14 items-center gap-2 border-b bg-background/80 px-4 backdrop-blur">
               <SidebarTrigger />
               <div className="ml-1 text-sm font-medium text-muted-foreground">
-                Workplace AI
+                AI PA (Productivity Assistant)
               </div>
             </header>
             <main className="min-w-0 flex-1">
