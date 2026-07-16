@@ -193,11 +193,10 @@ function ChatPage() {
                 >
                   <Message from={m.role}>
                     <MessageContent
-                      variant={isUser ? "contained" : "flat"}
                       className={
                         isUser
-                          ? "bg-primary text-primary-foreground [&_*]:text-primary-foreground"
-                          : ""
+                          ? "!bg-primary !text-primary-foreground [&_*]:text-primary-foreground"
+                          : "!bg-transparent !p-0"
                       }
                     >
                       {isUser ? (
