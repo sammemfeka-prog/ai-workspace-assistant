@@ -1,6 +1,3 @@
-Here's an updated `README.md` tailored for your **AI PA (Productivity Assistant)** project, with the portfolio disclaimer and MIT License section included.
-
-````markdown
 # AI PA (Productivity Assistant)
 
 AI PA (Productivity Assistant) is a modern, responsive SaaS-style web application that helps professionals automate everyday workplace tasks using Artificial Intelligence. The application combines AI-powered meeting summarization, intelligent task planning, and an interactive workplace assistant to improve productivity and save valuable time.
@@ -311,6 +308,5 @@ Developed as a portfolio and assessment project to demonstrate skills in:
 - AI-powered application development
 - Frontend best practices
 - Accessible and scalable web application development
-````
 
-This version is polished for GitHub and reads like a professional portfolio project, making it suitable for assessors, recruiters, and potential employers.
+
