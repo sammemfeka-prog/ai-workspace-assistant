@@ -94,7 +94,7 @@ export function AppSidebar() {
                     isActive={isActive(item.url)}
                     tooltip={item.title}
                   >
-                    <Link to={item.url}>
+                    <Link to={item.url} onClick={handleNavClick}>
                       <item.icon />
                       <span>{item.title}</span>
                     </Link>
