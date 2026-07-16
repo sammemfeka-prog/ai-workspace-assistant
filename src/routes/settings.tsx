@@ -9,8 +9,8 @@ import { useActivity } from "@/lib/analytics";
 export const Route = createFileRoute("/settings")({
   head: () => ({
     meta: [
-      { title: "Settings — Workplace AI" },
-      { name: "description", content: "Manage your Workplace AI preferences and stored data." },
+      { title: "Settings — AI PA (Productivity Assistant)" },
+      { name: "description", content: "Manage your AI PA (Productivity Assistant) preferences and stored data." },
     ],
   }),
   component: SettingsPage,
@@ -38,7 +38,7 @@ function SettingsPage() {
         </div>
         <h1 className="mt-2 text-3xl font-bold tracking-tight">Preferences</h1>
         <p className="mt-1 text-muted-foreground">
-          Workplace AI stores your activity and chat locally in your browser. Nothing here leaves
+          AI PA (Productivity Assistant) stores your activity and chat locally in your browser. Nothing here leaves
           this device except when the assistant calls the AI model.
         </p>
       </header>

@@ -16,7 +16,7 @@ import { formatMinutes, toolLabel, useActivity } from "@/lib/analytics";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dashboard — Workplace AI" },
+      { title: "Dashboard — AI PA (Productivity Assistant)" },
       {
         name: "description",
         content: "Your workplace productivity dashboard with AI tools and weekly insights.",

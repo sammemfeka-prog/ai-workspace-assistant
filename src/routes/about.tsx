@@ -6,11 +6,11 @@ import { AiDisclaimer } from "@/components/ai-disclaimer";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Workplace AI" },
+      { title: "About — AI PA (Productivity Assistant)" },
       {
         name: "description",
         content:
-          "About Workplace AI — an assistant for meeting summaries, planning, and workplace writing.",
+          "About AI PA (Productivity Assistant) — an assistant for meeting summaries, planning, and workplace writing.",
       },
     ],
   }),
@@ -42,7 +42,7 @@ function AboutPage() {
         <div className="flex items-center gap-2 text-sm font-medium text-primary">
           <Info className="h-4 w-4" /> About
         </div>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight">Workplace AI</h1>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight">AI PA (Productivity Assistant)</h1>
         <p className="mt-2 max-w-2xl text-muted-foreground">
           A focused AI workplace productivity assistant. No sign-up, no clutter — just three tools
           that give you time back.
