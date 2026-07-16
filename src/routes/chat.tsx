@@ -124,10 +124,9 @@ function ChatPage() {
     [sendMessage, clearError],
   );
 
-  const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleFormSubmit = (message: { text: string }) => {
     if (busy) return;
-    submit(input);
+    submit(message.text || input);
   };
 
   const clearConversation = () => {
@@ -236,7 +235,7 @@ function ChatPage() {
           )}
           {status === "submitted" && (
             <Message from="assistant">
-              <MessageContent variant="flat">
+              <MessageContent className="!bg-transparent !p-0">
                 <Shimmer>Thinking…</Shimmer>
               </MessageContent>
             </Message>
